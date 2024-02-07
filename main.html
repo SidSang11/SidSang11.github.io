@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website - Siddharth Sangolli</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Academic Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Business Analyst</p>
+            <h1>Hi, welcome to <span> my portfolio</h1>
+        </div>
+    </div>
+</div>
+<!-------------about------------>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="sid.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hi, I am a results-driven data analyst with a passion for transforming raw data into strategic insights. With a solid foundation in statistical analysis, machine learning, and data visualization, I have honed my skills through diverse experiences, from optimizing communication systems in a Naval Systems at Bharat Electronics Limited (india) to leading projects in advanced analytics and project management. I am Proficient in tools such as SQL, Python, Tableau, and R, MS Office Suite and I excel in uncovering patterns and trends that drive informed decision-making. My commitment to innovation, combined with a keen eye for detail and a collaborative spirit, positions me to contribute effectively to dynamic teams and deliver impactful solutions. As I embark on my career, I aspire to leverage my technical expertise and passion for analytics to make meaningful contributions in the field of data analysis.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Tableau:</span><br>Visualization, time series analysis, data mining and data models</li>
+                        <li><span>Microsoft Power BI:</span><br>Data modelling,predictive analysis and variance analysis</li>
+                        <li><span>R:</span><br>Statistical analysis, visualization, ANOVA, cluster analysis and forecasting</li>
+                        <li><span>SQL:</span><br>Data exploration, cleansing, segmentation, filtering, and sorting</li>
+                        <li><span>Advanced Excel:</span><br>Data manipulation, trend analysis, visualization and pivot tables</li>
+                        <li><span>Python:</span><br>Financial applications, data analysis and machine learning</li>
+                        <li><span>RapidMiner:</span><br>Data mining and predective modelling</li>
+                        <li><span>JavaScript, HTML and CSS3:</span><br>Web development, UI/UX design and web designing</li>
+                        <li><span>Bloomberg terminal:</span><br>Financial analytics</li>
+                        <li><span>C/ C++:</span><br>Electrical engineering</li>
+                        <li><span>Agile Methodologies:</span><br> Project management, planning and coorination</li>
+                        <li><span>Soft skills:</span><br>Problem solving, detail oriented, innovative and team player</li>
+                    </ul> 
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Student Graduate Assistant - Stevens Institute of Technology (Hoboken, NJ) September 2023 - January 2024:</span><br>• Summarized class presentations and weekly readings, aided students in revision and retention, clarified key concepts and insights to facilitate comprehensive understanding of Integrating Information System Technologies course <br> 
+                            • Collaborated with the Director of Disability Services, conducted examinations for students across various departments and assisted by providing notes, ensuring equal access to educational materials, and enhancing the learning experience</li>
+                        <li><span>Naval Systems Intern - Bharat Electronics Limited (Bangalore, India) August 2020 - September 2020:</span><br>• Optimized communication systems through C, C++, system analytics for enhanced speed and low energy consumption, resulting in increased efficiency by 7% <br>
+                            • Demonstrated proficiency in a diverse range of technical skills, including SQL (for data exploration, cleansing, segmentation, advanced filtering, and sorting), R (ANOVA, cluster analysis, forecasting),
+                            Tableau (for statistical analysis and visualization) , Agile Methodologies and advanced Excel functions <br>
+                            • Demonstrated strong communication and problem-solving abilities through collaborative client engagement, reflecting my practical skills in real-world scenarios <br></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Masters of Science in Information Systems (Business Intelligence and Analytics):</span><br>Stevens Institute of Technology <br> GPA: 3.95 <br> May 2024</li>
+                        <li><span>Bachelors of Technology in Electronics & Communication Engineering (Computer Networking):</span><br>BMS Institute of Technology and Management, India (First Class) <br> GPA: 7.1/10 <br> August 2022</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-----------services------------------>
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Data/ Business Analysis</h2>
+                <p>Proficient in extracting meaningful insights using tools like SQL, R, and MS Excel. I specialize in data manipulation, data modelling, and impactful visualization.</p>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>Financial Analysis</h2>
+                <p>With a Masters degree in progress, being skilled at financial modelling, budgeting, forecasting and a knack for data analysis, I specialize in dissecting intricate financial landscapes.</p>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>Project Management</h2>
+                <p>Proven track record in optimizing project timelines and outcomes. Proficient in Microsoft Office Suite, risk management, and reporting for data-driven decisions. Skilled in project management methodologies for streamlined operations. Strong in leading cross-functional teams with Agile practices, ensuring successful project delivery.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------------portfolio-------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Academic Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="logistics.png">
+                <div class="layer">
+                    <h3>Supply Chain and Operations - Piko Provisions Expansion (Industry Capstone Project)</h3>
+                        <ul> 
+                            <li> Implemented local sourcing, cutting expenses by 15% and increasing product freshness </li><br>
+                            <li> Developed a streamlined supply chain, reducing procurement costs by 10% </li><br>
+                            <li> Instituted a cost-effective road network, cutting transportation costs by 25% </li><br>
+                        </ul>
+                </div>
+            </div>
+            <div class="work">
+                <img src="data.png">
+                <div class="layer">
+                    <h3>Campus Shuttle Service Redesign</h3>
+                        <ul>
+                            <li> Led a comprehensive redesign of an existing shuttle service, leveraging MS Excel, Tableau, and R-Studio </li> <br> 
+                            <li> Employed project management methodologies resulting in a 20% reduction in project timeline </li> <br> 
+                            <li> Employed predictive analytics to optimize shuttle routes, resulting in a 15% reduction in travel time </li> <br> 
+                            <li> Achieved 96% customer satisfaction through cross-functional teams and Agile methodologies </li> <br> 
+                        </ul>
+                </div>
+            </div>
+            <div class="work">
+                <img src="card.png">
+                <div class="layer">
+                    <h3>Credit Card Approval using RapidMiner</h3>
+                        <ul> 
+                            <li>Utilized Linear Regression modeling in RapidMiner, achieving 92% accuracy in creditworthiness prediction </li><br>
+                            <li>Utilized hypothesis testing, validating model results with a 95% confidence level </li><br>
+                            <li>Conducted sensitivity analysis, identifying critical factors affecting creditworthiness </li><br>
+                        </ul>
+                </div>
+            </div>
+            <div class="work">
+                <img src="business.png">
+                <div class="layer">
+                    <h3>Business Re-Engineering of an Organization (Hilton)</h3>
+                        <ul> 
+                            <li>Overhauled Hilton's structure by redefining the Work Breakdown Structure, reducing project delivery time by 20% </li><br>
+                            <li>Analyzed operational data, identifying bottlenecks, and improving efficiency by 25% </li><br>
+                            <li>Implemented clustering techniques, resulting in an improvement in customer segmentation accuracy </li><br>
+                        </ul>
+                </div>
+            </div>
+                <div class="work">
+                    <img src="ai.png">
+                    <div class="layer">
+                        <h3>Breast Cancer Classification using Convolutional Neural Networks</h3>
+                            <ul>
+                                <li>Achieved 89.9% accuracy in breast cancer classification using a custom CNN model </li><br>
+                                <li>Collaborated with interdisciplinary teams, radiologists, and clinical experts to enhance model robustness </li><br>
+                                <li>Developed a user-friendly interface for medical professionals using JavaScrpit, HTML and CSS, reducing diagnosis time </li><br>
+                            </ul>
+                </div>
+            </div>  
+            <div class="work">
+                <img src="prg.png">
+                <div class="layer">
+                    <h3>Facial Recognition Based Attendance System</h3>
+                        <ul>
+                            <li>Employed anomaly detection methods to identify outliers in the dataset, improving data quality </li><br>
+                            <li>Integrated libraries such as OpenCV, landmark localization, and feature extraction for robust and efficient identification in varying lighting conditions </li><br>
+                            <li>Implemented a backend architecture using SQL to manage user profiles and capture attendance data, resulting in a precision rate exceeding 95% </li><br>
+                        </ul>
+                </div>
+            </div> 
+        </div>
+    </div>
+</div>
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> E-mail: ssangoll@stevens.edu</p>
+                <p><i class="fas fa-phone-square-alt"></i> Phone: +1 (848) - 327 - 5044</p>
+                <a href="resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+</div>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxKbc-xyDfM-DK8srCuerABEdwrquAgRoA_WMMfOrPN1OnIl50-oG-qgGbkwHTKwm62mQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
